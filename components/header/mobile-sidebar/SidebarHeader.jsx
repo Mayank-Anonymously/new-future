@@ -4,7 +4,7 @@ const SidebarHeader = () => {
   return (
     <div className="pro-header">
       <Link href="/">
-        <img src="/images/resource/company-logo/vflyyou.png" alt="brand" />
+        <img src="/images/resource/company-logo/VFlyyou.png" alt="brand" />
       </Link>
       {/* End logo */}
 

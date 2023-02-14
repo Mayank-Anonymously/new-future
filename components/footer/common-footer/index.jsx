@@ -13,7 +13,7 @@ const index = ({ footerStyle = "" }) => {
                 <div className="logo">
                   <a href="#">
                     <img
-                      src="/images/resource/company-logo/vflyyou.png"
+                      src="/images/resource/company-logo/VFlyyou.png"
                       alt="brand"
                       className="image-logo"
                     />

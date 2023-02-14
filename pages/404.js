@@ -17,7 +17,7 @@ const index = () => {
           <div className="logo">
             <Link href="/">
               <img
-                src="/images/resource/company-logo/vflyyou.png"
+                src="/images/resource/company-logo/VFlyyou.png"
                 alt="brand"
               />
             </Link>

@@ -1,16 +1,11 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import Hero4 from "../hero/hero-4";
-import JobFilterTab from "../job-featured/JobFilterTab";
 import Block2 from "../block/Block2";
-import TopCompany from "../top-company/TopCompany";
-import JobCategorie1 from "../job-categories/JobCategorie1";
 import Blog from "../blog/Blog";
-import Partner from "../common/partner/Partner";
 import LoginPopup from "../common/form/login/LoginPopup";
 import MobileMenu from "../header/MobileMenu";
 import FightFilterTab from "../job-featured/FightRouteTab";
-import { host, siteId } from "../../static";
 
 const index = ({ data }) => {
   return (

@@ -38,7 +38,7 @@ const DashboardCandidatesHeader = () => {
                 <Link href="/">
                   <Image
                     alt="brand"
-                    src="/images/resource/company-logo/vflyyou.png"
+                    src="/images/resource/company-logo/VFlyyou.png"
                     width={154}
                     height={50}
                     priority
