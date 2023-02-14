@@ -1,16 +1,14 @@
-import dynamic from "next/dynamic";
-import LoginPopup from "../../components/common/form/login/LoginPopup";
-import FooterDefault from "../../components/footer/common-footer";
-import DefaulHeader from "../../components/header/DefaulHeader";
-import MobileMenu from "../../components/header/MobileMenu";
-import DetailsContent from "../../components/blog-meu-pages/blog-details/details-content";
-import blogs from "../../data/blogs";
+import FooterDefault from "../../../components/footer/common-footer";
+import MobileMenu from "../../../components/header/MobileMenu";
+import DetailsContent from "../../../components/blog-meu-pages/blog-details/details-content";
+import blogs from "../../../data/blogs";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Seo from "../../components/common/Seo";
-import Header from "../../components/home-4/Header";
+import Seo from "../../../components/common/Seo";
+import { host, siteId } from "../../../static";
+import Header from "../../../components/home-4/Header";
 
-const index = () => {
+const BlogDetailsDynamic = ({ data }) => {
   const router = useRouter();
   const [blog, setBlogItem] = useState({});
   const id = router.query.id;
@@ -18,17 +16,22 @@ const index = () => {
   useEffect(() => {
     if (!id) <h1>Loading...</h1>;
     else setBlogItem(blogs.find((item) => item.id == id));
+
     return () => {};
   }, [id]);
 
   return (
     <>
-      <Seo pageTitle="Blog Details Dyanmic V1" />
+      <Seo
+        pageTitle={data.metaTitle}
+        description={data.metaDescription}
+        keywords={data.keywords}
+      />
 
       {/* <!-- Header Span --> */}
       <span className="header-span"></span>
 
-      <LoginPopup />
+      {/* <LoginPopup /> */}
       {/* End Login Popup Modal */}
 
       <Header />
@@ -46,7 +49,7 @@ const index = () => {
             <ul className="post-info">
               <li>
                 <span className="thumb">
-                  <img src={"/images/resource/thumb-1.png"} alt="resource" />
+                  <img src={"/images/resource/plane.webp"} alt="resource" />
                 </span>
                 Alison Dawn
               </li>
@@ -59,20 +62,38 @@ const index = () => {
         {/* End auto-container */}
 
         <figure className="main-image">
-          <img src={blog?.img} alt="resource" />
+          <img src={"/images/resource/plane.webp"} alt="resource" />
         </figure>
 
-        <DetailsContent />
+        <DetailsContent data={data.content} />
       </section>
       {/* <!-- End Blog Single --> */}
 
-      <FooterDefault footerStyle="alternate5" />
+      <FooterDefault />
       {/* <!-- End Main Footer --> */}
     </>
   );
 };
 
+export async function getServerSideProps(context) {
+  const { url } = context.query;
+  var myHeaders = new Headers();
+  myHeaders.append("auth", "MID-TravP-APAR07");
 
-export const getServerSideProps = () => {
-    
+  var requestOptions = {
+    method: "GET",
+    headers: myHeaders,
+    redirect: "follow",
+  };
+
+  const apifetch = await fetch(
+    `${host}get-blog-details/${url}/${siteId}`,
+    requestOptions
+  );
+  const response = await apifetch.json();
+  return {
+    props: { data: response },
+  };
 }
+
+export default BlogDetailsDynamic;

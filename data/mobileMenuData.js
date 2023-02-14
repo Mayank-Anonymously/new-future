@@ -365,7 +365,7 @@ export default [
   {
     id: 3,
     name: "Blog",
-    routePath: "/Blog",
+    routePath: "/blog",
   },
   {
     id: 4,
