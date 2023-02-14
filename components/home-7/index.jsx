@@ -5,8 +5,8 @@ import FooterDefault from "../footer/common-footer";
 import Funfact from "../fun-fact-counter/Funfact";
 import JobCategorie1 from "../job-categories/JobCategorie1";
 import Filter from "../job-featured/filter-dropdown/Filter";
-import JobFeatured12 from "../job-featured/JobFeatured12";
-import JobFeatured1 from "../job-featured/JobFeatured1";
+// import JobFeatured12 from "../job-featured/JobFeatured12";
+// import JobFeatured1 from "../job-featured/JobFeatured1";
 import Testimonial2 from "../testimonial/Testimonial2";
 import TopCompany2 from "../top-company/TopCompany2";
 import Header from "./Header";
@@ -50,9 +50,9 @@ const index = () => {
           </div>
           {/* End sec-title-outer */}
 
-          <div className="row " data-aos="fade-up">
+          {/* <div className="row " data-aos="fade-up">
             <JobFeatured1 />
-          </div>
+          </div> */}
 
           <div className="btn-box">
             <Link
@@ -162,9 +162,9 @@ const index = () => {
               Know your worth and find the job that qualify your life
             </div>
           </div>
-          <div className="job-carousel gap-x25">
+          {/* <div className="job-carousel gap-x25">
             <JobFeatured12 />
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- End Job Section --> */}
