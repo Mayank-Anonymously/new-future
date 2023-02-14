@@ -1,0 +1,5 @@
+.popular-destinations-image {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
