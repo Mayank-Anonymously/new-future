@@ -6,7 +6,7 @@ import { host, siteId } from "../static";
 const index = ({ data }) => {
   return (
     <>
-      <Seo pageTitle="Vflyyou" />
+      <Seo pageTitle="vflyyou" />
       <Home4 data={data} />
     </>
   );
