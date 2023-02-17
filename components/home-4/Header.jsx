@@ -46,10 +46,7 @@ const Header = () => {
 
           <div className="outer-box">
             <div className="d-flex align-items-center btn-box2">
-              <Link
-                href="/employers-dashboard/post-jobs"
-                className="theme-btn btn-style-five"
-              >
+              <Link href="#" className="theme-btn btn-style-five">
                 Call now
               </Link>
             </div>

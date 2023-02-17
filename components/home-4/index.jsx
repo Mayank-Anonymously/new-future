@@ -85,7 +85,7 @@ const index = ({ data }) => {
             </div>
           </div>
           <div className="row" data-aos="fade-up">
-            <Blog data={data} />
+            {/* <Blog data={data} /> */}
           </div>
         </div>
       </section>

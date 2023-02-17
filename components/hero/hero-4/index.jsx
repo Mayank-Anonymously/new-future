@@ -9,7 +9,6 @@ const index = () => {
     >
       <div className="auto-container">
         <div className="content-box">
-          {/* <div className="title-box" data-aso-delay="500" data-aos="fade-up"> */}
           <h3>Get Your Flights At Cheap Fare.</h3>
           <div
             className="job-search-form"
