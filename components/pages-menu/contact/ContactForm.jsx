@@ -2,12 +2,12 @@ const ContactForm = () => {
   return (
     <form>
       <div className="row">
-        <div className="form-group col-lg-12 col-md-12 col-sm-12">
+        <div className=" col-lg-12 col-md-12 col-sm-12">
           <div className="response"></div>
         </div>
         {/* End .col */}
 
-        <div className="col-lg-5 col-md-12 col-sm-12 form-group">
+        <div className="col-lg-5 col-md-12 col-sm-12 ">
           <label>Your Name</label>
           <input
             type="text"
@@ -19,7 +19,7 @@ const ContactForm = () => {
         </div>
         {/* End .col */}
 
-        <div className="col-lg-6 col-md-12 col-sm-12 form-group">
+        <div className="col-lg-6 col-md-12 col-sm-12 ">
           <label>Your Email</label>
           <input
             type="email"
@@ -31,7 +31,7 @@ const ContactForm = () => {
         </div>
         {/* End .col */}
 
-        <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+        <div className="col-lg-12 col-md-12 col-sm-12 ">
           <label>Subject</label>
           <input
             type="text"
@@ -43,7 +43,7 @@ const ContactForm = () => {
         </div>
         {/* End .col */}
 
-        <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+        <div className="col-lg-12 col-md-12 col-sm-12 ">
           <label>Your Message</label>
           <textarea
             name="message"
@@ -53,7 +53,7 @@ const ContactForm = () => {
         </div>
         {/* End .col */}
 
-        <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+        <div className="col-lg-12 col-md-12 col-sm-12 ">
           <button
             className="theme-btn btn-style-one"
             type="submit"
