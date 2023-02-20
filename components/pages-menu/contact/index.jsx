@@ -2,6 +2,7 @@ import LoginPopup from "../../common/form/login/LoginPopup";
 import FooterDefault from "../../footer/common-footer";
 import DefaulHeader from "../../header/DefaulHeader";
 import MobileMenu from "../../header/MobileMenu";
+import Header from "../../home-4/Header";
 import Address from "./Address";
 import ContactForm from "./ContactForm";
 import MapBox from "./MapBox";
@@ -15,7 +16,7 @@ const index = () => {
       <LoginPopup />
       {/* End Login Popup Modal */}
 
-      <DefaulHeader />
+      <Header />
       {/* <!--End Main Header --> */}
 
       <MobileMenu />

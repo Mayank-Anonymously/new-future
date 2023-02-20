@@ -13,10 +13,11 @@ const Textinput = ({
   onFocus,
   value,
   className,
+  icon,
 }) => {
   return (
     <div className={`form-group col-lg-${lg} col-md-${md} col-sm-${sm}`}>
-      <span className="icon flaticon-search-1"></span>
+      <span className={`icon ${icon}`}></span>
       <input
         type={label}
         name={fieldName}

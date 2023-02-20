@@ -1,30 +1,17 @@
 import dynamic from "next/dynamic";
 import Seo from "../components/common/Seo";
-import About from "../components/pages-menu/about";
+import Privacy from "../components/pages-menu/Privacy&Policy";
 import { host, siteId } from "../static";
 
 const index = ({ data }) => {
   return (
     <>
-      {data.length === 0 ? (
-        <>
-          <Seo title={"About"} />
-          <About />
-        </>
-      ) : (
-        <>
-          <Seo
-            pageTitle="About"
-            title={data[0].metaTitle}
-            description={data[0].metaDescription}
-            keywords={data[0].metaKeyWords}
-          />
-          <About data={data[0]} />
-        </>
-      )}
+      <Seo pageTitle="Privacy" />
+      <Privacy data={data} />
     </>
   );
 };
+
 export async function getServerSideProps(context) {
   var resp = [];
   try {
@@ -38,7 +25,7 @@ export async function getServerSideProps(context) {
     };
 
     const apifetch = await fetch(
-      `${host}get-aboutus/${siteId}`,
+      `${host}get-privacy-policy/${siteId}`,
       requestOptions
     );
     const response = await apifetch.json();

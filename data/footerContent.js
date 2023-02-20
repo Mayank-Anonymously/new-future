@@ -28,9 +28,8 @@ module.exports = [
     title: "About Vflyyou",
     menuList: [
       { name: "About Us", route: "/about" },
+      { name: "Blog", route: "/blog" },
       { name: "Contact", route: "/contact" },
-      { name: "Blog", route: "/blog-list-v1" },
-      { name: "Site Map", route: "/" },
       { name: "Terms and conditions ", route: "/terms" },
     ],
   },

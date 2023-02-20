@@ -1784,5 +1784,12 @@ Work Section
 .title-box {
   z-index: 99999;
 }
+.selected {
+  background: linear-gradient(45deg, #ec9f05, #ff4e00);
+  color: white;
+}
+.btn-hover:hover {
+  color: white;
+}
 
 /*--------------------------------------------------------MAYANK----------------------------------------  */

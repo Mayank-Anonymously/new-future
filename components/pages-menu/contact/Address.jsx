@@ -6,8 +6,8 @@ const Address = () => {
       title: "Address",
       text: (
         <>
-          329 Queensberry Street, North
-          <br /> Melbourne VIC 3051, Australia.
+          9330 LYNDON B JOHNSON FWY SUITE,
+          <br /> 900 DALLAS, TX 75243.
         </>
       ),
     },
@@ -29,8 +29,7 @@ const Address = () => {
       title: "Email",
       text: (
         <>
-          {" "}
-          <a href="#">contact.london@example.com</a>
+          <a href="#">info@vflyyou.com</a>
         </>
       ),
     },

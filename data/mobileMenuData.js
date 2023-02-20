@@ -369,11 +369,6 @@ export default [
   },
   {
     id: 4,
-    name: "Services",
-    routePath: "/service",
-  },
-  {
-    id: 5,
     name: "Terms and Conditions",
     routePath: "/terms",
   },

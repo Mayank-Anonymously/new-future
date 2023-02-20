@@ -7,7 +7,7 @@ const ContactForm = () => {
         </div>
         {/* End .col */}
 
-        <div className="col-lg-6 col-md-12 col-sm-12 form-group">
+        <div className="col-lg-5 col-md-12 col-sm-12 form-group">
           <label>Your Name</label>
           <input
             type="text"
