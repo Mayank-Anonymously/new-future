@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MobileSidebar from "./mobile-sidebar";
+import Logo from "../common/Logo";
 
 const MobileMenu = () => {
   return (
@@ -12,10 +13,7 @@ const MobileMenu = () => {
             <div className="logo-box">
               <div className="logo">
                 <Link href="/">
-                  <img
-                    src="/images/resource/company-logo/VFlyyou.png"
-                    alt="brand"
-                  />
+                  <Logo />
                 </Link>
               </div>
             </div>

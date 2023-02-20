@@ -31,6 +31,7 @@ module.exports = [
       { name: "Blog", route: "/blog" },
       { name: "Contact", route: "/contact" },
       { name: "Terms and conditions ", route: "/terms" },
+      { name: "Privacy and Policy ", route: "/privacy" },
     ],
   },
   // {
