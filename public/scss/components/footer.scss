@@ -391,7 +391,7 @@ Main Footer / Style Three
 ***/
 
 .main-footer.style-three {
-  background-image: linear-gradient(45deg, #ec9f05, #ff4e00);
+  background: #d8d8d8;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
 }
@@ -401,7 +401,7 @@ Main Footer / Style Three
 }
 
 .main-footer.style-three .widget-title {
-  color: #ffffff;
+  color: black;
 }
 
 .main-footer.style-three .copyright-text,
@@ -413,7 +413,7 @@ Main Footer / Style Three
 .main-footer.style-three .address a,
 .main-footer.style-three .phone-num,
 .main-footer.style-three .phone-num a {
-  color: #deebff;
+  color: black;
 }
 
 .main-footer.style-three .social-links a:hover {
@@ -429,7 +429,7 @@ Main Footer / Style Three
 }
 
 .main-footer.style-three .list li:before {
-  border-color: #ffffff;
+  border-color: black;
 }
 
 .main-footer.style-three .newsletter-form {

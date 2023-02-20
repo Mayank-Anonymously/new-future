@@ -49,7 +49,7 @@ const HeaderNavContent = () => {
               key={i}
               routerLink={<Link href={menuItem.routePath} />}
             >
-              <Link href={menuItem.routePath} class="text-white font-bold fs-5">
+              <Link href={menuItem.routePath} class="text-black font-bold fs-5">
                 {menuItem.name}
               </Link>
             </li>

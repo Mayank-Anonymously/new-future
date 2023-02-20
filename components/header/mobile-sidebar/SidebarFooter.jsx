@@ -8,20 +8,19 @@ const SidebarFooter = () => {
 
   return (
     <div className="mm-add-listing mm-listitem pro-footer">
-      <a href="#" className="theme-btn btn-style-one mm-listitem__text">
-        Job Post
+      <a
+        href="tel:1234567890"
+        className="theme-btn btn-style-one mm-listitem__text"
+      >
+        Call us @ 123 456 7890
       </a>
       {/* job post btn */}
 
       <div className="mm-listitem__text">
         <div className="contact-info">
-          <span className="phone-num">
-            <span>Call us</span>
-            <a href="tel:1234567890">123 456 7890</a>
-          </span>
           <span className="address">
-            329 Queensberry Street, North Melbourne VIC <br />
-            3051, Australia.
+            9330 LYNDON B JOHNSON FWY SUITE <br />
+            900 DALLAS, TX 75243.
           </span>
           <a href="mailto:support@vflyyou.com" className="email">
             support@vflyyou.com
@@ -29,7 +28,7 @@ const SidebarFooter = () => {
         </div>
         {/* End .contact-info */}
 
-        <div className="social-links">
+        {/* <div className="social-links">
           {socialContent.map((item) => (
             <a
               href={item.link}
@@ -40,7 +39,7 @@ const SidebarFooter = () => {
               <i className={`fab ${item.icon}`}></i>
             </a>
           ))}
-        </div>
+        </div> */}
         {/* End social-links */}
       </div>
       {/* End .mm-listitem__text */}

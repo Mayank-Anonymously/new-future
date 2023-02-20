@@ -31,7 +31,7 @@ export async function getServerSideProps(context) {
     const response = await apifetch.json();
     resp.push(response);
   } catch (error) {
-    console.log(error.type);
+    console.log(error);
   }
   return {
     props: { data: resp },

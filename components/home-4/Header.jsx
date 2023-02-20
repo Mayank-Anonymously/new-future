@@ -21,9 +21,8 @@ const Header = () => {
   return (
     // <!-- Main Header-->
     <header
-      className={`main-header header-style-two alternate  ${
-        navbar ? "fixed-header animated slideInDown" : ""
-      }`}
+      className={`main-header header-style-two alternate
+      `}
     >
       <div className="auto-container">
         {/* <!-- Main box --> */}
@@ -45,8 +44,14 @@ const Header = () => {
           {/* End .nav-outer */}
 
           <div className="outer-box">
-            <div className="d-flex align-items-center btn-box2">
-              <Link href="#" className="theme-btn btn-style-five">
+            <div className="d-flex align-items-center btn-box2 ">
+              <Link
+                href="#"
+                className="theme-btn btn-style-five text-white"
+                style={{
+                  background: "linear-gradient(257deg, #ec9f05, #ff4e00)",
+                }}
+              >
                 Call now
               </Link>
             </div>

@@ -1,10 +1,12 @@
 import LoginPopup from "../../common/form/login/LoginPopup";
 import FooterDefault from "../../footer/common-footer";
 import MobileMenu from "../../header/MobileMenu";
+import Footer from "../../home-4/Footer";
 import Header from "../../home-4/Header";
 import TermsText from "./TermsText";
 
-const index = () => {
+const index = ({ data }) => {
+  console.log("data:", data.length);
   return (
     <>
       {/* <!-- Header Span --> */}
@@ -26,12 +28,18 @@ const index = () => {
             <div className="text">Home / Terms and Conditions</div>
           </div>
           {/* End sec-title */}
-          <TermsText />
+          {data.length !== 0 || data.length !== undefined ? (
+            <TermsText data={data} />
+          ) : (
+            <span className="loading-text">
+              <h2>Wait While We Fetch Your Data.</h2>
+            </span>
+          )}
         </div>
       </section>
       {/* <!-- End TNC Section --> */}
 
-      <FooterDefault footerStyle="alternate5" />
+      <Footer />
       {/* <!-- End Main Footer --> */}
     </>
   );
