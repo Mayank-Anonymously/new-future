@@ -5,7 +5,7 @@ import { MdChair } from "react-icons/md";
 import SearchEngineTab from "../../customCompents/EngineTab";
 import { useState } from "react";
 const SearchForm3 = () => {
-  const [tripType, setTripType] = useState(0);
+  const [tripType, setTripType] = useState(1);
   const handleSubmit = (event) => {
     event.preventDefault();
   };
