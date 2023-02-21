@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import Seo from "../../../components/common/Seo";
 import { host, siteId } from "../../../static";
 import Header from "../../../components/home-4/Header";
-
+import moment from "moment";
 const BlogDetailsDynamic = ({ data }) => {
   const router = useRouter();
   const [blog, setBlogItem] = useState({});
@@ -47,23 +47,14 @@ const BlogDetailsDynamic = ({ data }) => {
             <h3>{blog?.blogSingleTitle}</h3>
 
             <ul className="post-info">
-              <li>
-                <span className="thumb">
-                  <img src={"/images/resource/plane.webp"} alt="resource" />
-                </span>
-                Alison Dawn
-              </li>
-              <li>August 31, 2021</li>
-              <li>12 Comment</li>
+              <li>{data.author}</li>
+              <li>{moment(data.modify).format("MMMM Do yyyy")}</li>
+              <li>{data.category}</li>
             </ul>
             {/* End post info */}
           </div>
         </div>
         {/* End auto-container */}
-
-        <figure className="main-image">
-          <img src={"/images/resource/plane.webp"} alt="resource" />
-        </figure>
 
         <DetailsContent data={data.content} />
       </section>
