@@ -48,7 +48,7 @@ const BlogDetailsDynamic = ({ data }) => {
 
             <ul className="post-info">
               <li>{data.author}</li>
-              <li>{moment(data.modify).format("MMMM Do yyyy")}</li>
+              <li>{moment(data.modifyDate).format("MMMM Do yyyy")}</li>
               <li>{data.category}</li>
             </ul>
             {/* End post info */}
