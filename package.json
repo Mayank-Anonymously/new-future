@@ -1,5 +1,5 @@
 {
-  "name": "Future Communication",
+  "name": "FutureCommunication",
   "version": "1.2.0",
   "private": true,
   "scripts": {
@@ -39,7 +39,6 @@
     "react-tabs": "^6.0.0",
     "react-toastify": "^9.1.1",
     "sass": "^1.56.1",
-    "sharp": "^0.31.3",
     "slick-carousel": "^1.8.1"
   }
 }
