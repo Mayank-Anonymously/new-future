@@ -43,7 +43,7 @@ const FormInfoBox = () => {
                     <input
                         type="text"
                         name="name"
-                        placeholder="0 123 456 7890"
+                        placeholder="0 +1-888-510-6726"
                         required
                     />
                 </div>

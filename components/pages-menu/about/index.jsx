@@ -29,7 +29,7 @@ const index = ({ data }) => {
       ) : (
         <div
           className="auto-container bg-white m-5"
-          dangerouslySetInnerHTML={{ __html: data.content }}
+          dangerouslySetInnerHTML={{ __html: "<p>Future Communication is a next-generation aviation support company dedicated to enhancing how airlines, travelers, and global flight networks stay connected. We specialize in delivering fast, reliable, and intelligent communication solutions that streamline flight operations, improve passenger experience, and support real-time coordination across the skies. From advanced flight-status technologies to seamless customer interaction systems, our mission is to make air travel smarter, safer, and more efficient. At Future Communication, we believe that the future of aviation depends on clear communication&mdash;and we&rsquo;re committed to elevating every journey, one connection at a time.</p>" }}
         />
       )}
 

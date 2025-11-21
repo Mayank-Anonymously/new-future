@@ -17,9 +17,7 @@ const Address = () => {
       title: "Call Us",
       text: (
         <>
-          <a href="tel:+4733378901" className="phone">
-            123 456 7890
-          </a>
+          <a href="tel:+1-(888) 510-6726">+1-888-510-6726</a>
         </>
       ),
     },
@@ -29,7 +27,7 @@ const Address = () => {
       title: "Email",
       text: (
         <>
-          <a href="#">info@Future Communication.com</a>
+          <a href="#">info@futurecommunication.org</a>
         </>
       ),
     },

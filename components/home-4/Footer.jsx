@@ -19,13 +19,13 @@ const Footer = () => {
                 </div>
                 <p className="phone-num">
                   <span>Call us </span>
-                  <a href="tel://+123456789">123 456 7890</a>
+                  <a href="tel:+1-(888) 510-6726">+1-888-510-6726</a>
                 </p>
                 <p className="address">
                   9330 LYNDON B JOHNSON FWY SUITE
                   <br /> 900 DALLAS, TX 75243. <br />
                   <a href="mailto:support@Future Communication.com" className="email">
-                    support@Future Communication.com
+                    support@futurecommunication.org
                   </a>
                 </p>
               </div>

@@ -1,14 +1,14 @@
-import dynamic from "next/dynamic";
-import Seo from "../components/common/Seo";
-import Contact from "../components/pages-menu/contact";
+import dynamic from 'next/dynamic';
+import Seo from '../components/common/Seo';
+import Contact from '../components/pages-menu/contact';
 
 const index = () => {
-  return (
-    <>
-      <Seo pageTitle="Contact" />
-      <Contact />
-    </>
-  );
+	return (
+		<>
+			<Seo pageTitle='Contact' />
+			<Contact />
+		</>
+	);
 };
 
 export default index;

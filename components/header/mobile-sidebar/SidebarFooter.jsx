@@ -9,10 +9,10 @@ const SidebarFooter = () => {
   return (
     <div className="mm-add-listing mm-listitem pro-footer">
       <a
-        href="tel:1234567890"
+        href="tel:+1-888-510-6726"
         className="theme-btn btn-style-one mm-listitem__text"
       >
-        Call us @ 123 456 7890
+        Call us @ +1-888-510-6726
       </a>
       {/* job post btn */}
 
