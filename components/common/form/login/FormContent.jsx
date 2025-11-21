@@ -3,7 +3,7 @@ import LoginWithSocial from "./LoginWithSocial";
 const FormContent = () => {
   return (
     <div className="form-inner">
-      <h3>Login to vflyyou</h3>
+      <h3>Login to Future Communication</h3>
 
       {/* <!--Login Form--> */}
       <form method="post" action="add-parcel.html">

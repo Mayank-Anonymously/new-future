@@ -29,7 +29,7 @@ const Address = () => {
       title: "Email",
       text: (
         <>
-          <a href="#">info@vflyyou.com</a>
+          <a href="#">info@Future Communication.com</a>
         </>
       ),
     },

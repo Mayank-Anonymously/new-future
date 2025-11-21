@@ -44,7 +44,7 @@ const AppSection2 = () => {
             >
               <div className="sec-title">
                 <span className="sub-title">DOWNLOAD & ENJOY</span>
-                <h2>Get the vflyyou Job Search App</h2>
+                <h2>Get the Future Communication Job Search App</h2>
               </div>
 
               <div className="content-icons">

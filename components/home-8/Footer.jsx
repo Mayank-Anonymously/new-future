@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/images/resource/company-logo/VFlyyou.png"
+                      src="/images/resource/company-logo/Future Communication.png"
                       alt="brand"
                     />
                   </Link>
@@ -36,8 +36,8 @@ const Footer = () => {
                 <p className="address">
                   329 Queensberry Street, North Melbourne VIC
                   <br /> 3051, Australia. <br />
-                  <a href="mailto:support@vflyyou.com" className="email">
-                    support@vflyyou.com
+                  <a href="mailto:support@Future Communication.com" className="email">
+                    support@Future Communication.com
                   </a>
                 </p>
               </div>

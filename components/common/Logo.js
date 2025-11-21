@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div>
       <img
-        src={"/images/resource/company-logo/VFlyyou.png"}
+        src={"/images/resource/logo-new.png"}
         alt="brand"
         className="image-logo"
       />

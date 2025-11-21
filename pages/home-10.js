@@ -5,7 +5,7 @@ import Home10 from "../components/home-10";
 const index = () => {
   return (
     <>
-      <Seo pageTitle="vflyyou" />
+      <Seo pageTitle="Future Communication" />
       <Home10 />
     </>
   );

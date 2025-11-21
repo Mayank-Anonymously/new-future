@@ -42,7 +42,7 @@ const ShopHeader = () => {
             <div className="logo">
               <Link href="/">
                 <img
-                  src="/images/resource/company-logo/VFlyyou.png"
+                  src="/images/resource/company-logo/Future Communication.png"
                   alt="brand"
                 />
               </Link>

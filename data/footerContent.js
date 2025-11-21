@@ -25,7 +25,7 @@ module.exports = [
   // },
   {
     id: 3,
-    title: "About Vflyyou",
+    title: "About Future Communication",
     menuList: [
       { name: "About Us", route: "/about" },
       { name: "Blog", route: "/blog" },

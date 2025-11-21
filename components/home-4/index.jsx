@@ -10,7 +10,7 @@ import FightFilterTab from "../job-featured/FightRouteTab";
 const index = ({ data }) => {
   return (
     <>
-      <LoginPopup />
+      {/* <LoginPopup /> */}
       <Header />
       <MobileMenu />
 

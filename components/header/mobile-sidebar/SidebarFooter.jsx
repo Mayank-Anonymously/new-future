@@ -22,8 +22,8 @@ const SidebarFooter = () => {
             9330 LYNDON B JOHNSON FWY SUITE <br />
             900 DALLAS, TX 75243.
           </span>
-          <a href="mailto:support@vflyyou.com" className="email">
-            support@vflyyou.com
+          <a href="mailto:support@Future Communication.com" className="email">
+            support@Future Communication.com
           </a>
         </div>
         {/* End .contact-info */}
